@@ -6,9 +6,9 @@
 > Please report issues and open pull requests at the upstream repository:
 > [https://github.com/untillpro/uspecs](https://github.com/untillpro/uspecs).
 
-- Version: `2.3.0-dev+20260504-1923.0c90696cf94f`
-- Generated at: `2026-05-04T19:23:46Z`
-- Upstream commit: `0c90696cf94fcaefcdb7aed1faf7e75cf8a7b8e0`
+- Version: `2.3.0-dev+20260504-1943.2d5e5ead7a13`
+- Generated at: `2026-05-04T19:43:28Z`
+- Upstream commit: `2d5e5ead7a13d7a9489f66072ab9ba7fcb4fb260`
 
 ## Installation
 
