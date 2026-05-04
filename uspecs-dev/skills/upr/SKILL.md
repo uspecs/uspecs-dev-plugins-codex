@@ -1,5 +1,5 @@
 ---
-name: uspecs-upr
+name: upr
 description: Create pull request from current branch
 ---
 

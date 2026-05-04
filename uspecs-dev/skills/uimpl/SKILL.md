@@ -1,5 +1,5 @@
 ---
-name: uspecs-uimpl
+name: uimpl
 description: Implementation plan management
 ---
 

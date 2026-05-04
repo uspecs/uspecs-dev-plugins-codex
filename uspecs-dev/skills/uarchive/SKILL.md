@@ -1,5 +1,5 @@
 ---
-name: uspecs-uarchive
+name: uarchive
 description: Archive change request
 ---
 

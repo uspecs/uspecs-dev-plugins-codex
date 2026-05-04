@@ -1,5 +1,5 @@
 ---
-name: uspecs-uchange
+name: uchange
 description: Create change request
 ---
 

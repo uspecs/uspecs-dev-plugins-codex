@@ -1,5 +1,5 @@
 ---
-name: uspecs-umergepr
+name: umergepr
 description: Merge pull request
 ---
 
