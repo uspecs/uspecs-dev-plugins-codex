@@ -12,3 +12,5 @@ Parse user input as `[options] {description}`:
 - Do not pass {description} verbatim to the command
 
 Options: `--kebab-name <name>` (required), `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--specs`
+
+Do not pass options that are not implied by the instructions above or explicitly requested by the user.
