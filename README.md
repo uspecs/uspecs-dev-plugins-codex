@@ -6,13 +6,13 @@
 > Please report issues and open pull requests at the upstream repository:
 > [https://github.com/untillpro/uspecs](https://github.com/untillpro/uspecs).
 
-- Version: `2.0.0-dev+20260516-1925.8b3401fc0d8b`
-- Generated at: `2026-05-16T19:25:21Z`
-- Upstream commit: `8b3401fc0d8bf4a0a63ee21d73396c02f9f25327`
+- Version: `2.0.0-dev+20260516-1956.b7d780b6e8e9`
+- Generated at: `2026-05-16T19:56:38Z`
+- Upstream commit: `b7d780b6e8e909c2cad2ab937f7437b17ea2e028`
 
 ## Installation
 
 ```sh
 codex plugin marketplace add uspecs/uspecs-dev-plugins-codex
-codex plugin install uspecs-dev@uspecs-dev-plugins-codex
+codex plugin add uspecs-dev@uspecs-dev-plugins-codex
 ```

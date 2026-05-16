@@ -29,7 +29,7 @@ fi
 
 set -Eeuo pipefail
 
-USPECS_VERSION="2.0.0-dev+20260516-1925.8b3401fc0d8b"
+USPECS_VERSION="2.0.0-dev+20260516-1956.b7d780b6e8e9"
 
 # softeng automation
 #
