@@ -24,6 +24,6 @@ Parse user input as `[options] {description}`:
 - run `bash ../../bin/softeng.sh action uchange [options]` and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
 
-Options: `--kebab-name <name>` (required), `--type <type>` (required), `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--specs`
+Options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--specs`
 
 Do not pass options that are not implied by the instructions above or explicitly requested by the user.
