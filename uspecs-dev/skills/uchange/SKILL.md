@@ -20,10 +20,11 @@ Parse user input as `[options] {description}`:
   - `style` -- formatting, whitespace, lint fixes with no semantic change
   - `test` -- adding or correcting tests only
 - If {description} contains a URL, add `--issue-url {URL}` option
+  - If you can fetch the issue body from that URL (using your skills, MCP integrations, and project rules in `AGENTS.md` / `CLAUDE.md`), also add `--fetchable`. Without `--fetchable` no fetch is attempted and change.md keeps the legacy `## Why` + `## What` shape; with `--fetchable` change.md uses the `## Context` shape and you will be instructed to save the issue body to `issue.md`.
 - If the user asks to derive specifications from the codebase, add `--specs` option
 - run `bash ../../bin/softeng.sh action uchange [options]` and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
 
-Options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--specs`
+Options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`
 
 Do not pass options that are not implied by the instructions above or explicitly requested by the user.
