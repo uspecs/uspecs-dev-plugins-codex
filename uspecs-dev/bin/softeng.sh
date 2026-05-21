@@ -29,7 +29,7 @@ fi
 
 set -Eeuo pipefail
 
-USPECS_VERSION="2.0.0-dev+20260521-2235.fd077b5184b5"
+USPECS_VERSION="2.0.0-dev+20260521-2251.58dba9d68a33"
 
 declare -A ACTION_OPTIONS=(
     [uchange]='`--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`, `--no-self-review`'
