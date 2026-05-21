@@ -22,7 +22,7 @@ Parse user input as `[options] {description}`:
 - If {description} contains a URL, add `--issue-url {URL}` option
   - If you can fetch the issue body from that URL (using your skills, MCP integrations, and project rules in `AGENTS.md` / `CLAUDE.md`), also add `--fetchable`. Without `--fetchable` no fetch is attempted and change.md uses the `## Why` + `## What` shape; with `--fetchable` change.md uses the Refs + `## Why` + `## What` shape and you will be instructed to fetch the issue and save it to `issue-{issue-number}.md`.
 - If the user asks to derive specifications from the codebase, add `--specs` option
-- Set cwd to the uspecs-using project root and run `bash ../../bin/softeng.sh action uchange [options]` (the path is relative to this skill folder, resolve it before changing cwd) and follow the instructions in the output how to process {description}.
+- run `bash bin/softeng.sh action uchange [options]` and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
 
 Options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`, `--no-self-review`
