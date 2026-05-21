@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 Parse user input as `[options]`.
 
-run `bash softeng.sh action usync [options]` and follow the instructions in the output.
+run `bash ../../bin/softeng.sh action usync [options]`  and follow the instructions in the output.
 
 Options: `-y`
 
