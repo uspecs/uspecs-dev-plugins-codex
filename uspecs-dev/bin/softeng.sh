@@ -29,7 +29,7 @@ fi
 
 set -Eeuo pipefail
 
-USPECS_VERSION="2.0.0-dev+20260522-1318.cf808393e210"
+USPECS_VERSION="2.0.0-dev+20260522-1411.d7446448664d"
 
 # shellcheck disable=SC2016 # we do not expand by intent
 declare -A ACTION_OPTIONS=(
