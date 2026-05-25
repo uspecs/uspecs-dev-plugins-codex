@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "uspecs framework plugins for Codex (development build)",
-    "version": "2.0.0-dev+20260525-1535.070c8712910a"
+    "version": "2.0.0-dev+20260525-1541.286c1e4edfad"
   },
   "plugins": [
     {
