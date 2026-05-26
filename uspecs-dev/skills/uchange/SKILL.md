@@ -20,7 +20,7 @@ Parse user input as `[options] {description}`:
   - `style` -- formatting, whitespace, lint fixes with no semantic change
   - `test` -- adding or correcting tests only
 - If {description} contains a URL, add `--issue-url {URL}` option
-  - If you can fetch the issue body from that URL (using your skills, MCP integrations, and project rules in `AGENTS.md` / `CLAUDE.md`), also add `--fetchable`. Without `--fetchable` no fetch is attempted and change.md uses the `## Why` + `## What` shape; with `--fetchable` change.md uses the Refs + `## Why` + `## What` shape and you will be instructed to fetch the issue and save it to `issue-{issue-number}.md`.
+  - If you can fetch the issue body from that URL (using your skills, MCP integrations, etc.), also add `--fetchable`.
 - If the user asks to derive specifications from the codebase, add `--specs` option
 - set cwd to project root and run `bash {SKILL_FOLDER}/../../bin/softeng.sh action uchange [options]`  and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
