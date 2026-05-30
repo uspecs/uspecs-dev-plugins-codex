@@ -25,6 +25,6 @@ Parse user input as `[options] {description}`:
 - set cwd to project root and run `bash {SKILL_FOLDER}/../../bin/softeng.sh action uchange [options]`  and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
 
-Options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`, `--no-self-review`
+Possible options: `--kebab-name <name>` (required), `--type <type>` (required), `--how`, `--plan`, `--no-impl`, `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`, `--no-self-review`
 
 Do not pass options that are not implied by the instructions above or explicitly requested by the user.
