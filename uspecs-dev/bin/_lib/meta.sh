@@ -5,7 +5,7 @@
 
 # shellcheck disable=SC2034 # these variables are used in sourced scripts, just not in this file
 
-USPECS_VERSION="2.0.0-dev+20260530-1502.9dbb702630af"
+USPECS_VERSION="2.0.0-dev+20260530-1505.58fc3069f527"
 USPECS_MARKETPLACE_REPO="uspecs/uspecs-dev-plugins-codex"
 USPECS_MARKETPLACE_NAME="uspecs-dev-plugins-codex"
 USPECS_STREAM="development"
