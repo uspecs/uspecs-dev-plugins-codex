@@ -6,17 +6,15 @@ user-invocable: false
 
 Technical Design Specifications describe how functionality is to be implemented.
 
-<!-- // TODO Same text as in uspecs-sec-td -->
-
 Artifact types:
 
-- Domain Technology (`uspecs/specs/{domain}/tech.md`) - tech stack, architecture patterns, UI/UX guidelines
-- Domain Architecture (`uspecs/specs/{domain}/arch.md`)
-- Domain Subsystem Architecture (`uspecs/specs/{domain}/arch-{subsystem}.md`)
-- Context Technology (`uspecs/specs/{domain}/{context}/tech.md`)
-- Context Architecture (`uspecs/specs/{domain}/{context}/arch.md`)
-- Context Subsystem Architecture (`uspecs/specs/{domain}/{context}/arch-{subsystem}.md`)
-- Feature Technical Design (`uspecs/specs/{domain}/{context}/{feature}--td.md`)
+- Domain Technology: `uspecs/specs/{domain}/tech.md`
+- Domain Architecture: `uspecs/specs/{domain}/arch.md`
+- Domain Subsystem Architecture: `uspecs/specs/{domain}/arch-{subsystem}.md`
+- Context Technology: `uspecs/specs/{domain}/{context}/tech.md`
+- Context Architecture: `uspecs/specs/{domain}/{context}/arch.md`
+- Context Subsystem Architecture: `uspecs/specs/{domain}/{context}/arch-{subsystem}.md`
+- Feature Technical Design: `uspecs/specs/{domain}/{context}/{feature}--td.md`
 
 ## Structure: Technology Specifications
 
